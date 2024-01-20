@@ -3,6 +3,27 @@
 <head>
     <title>Emirates</title>
 </head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+  
+    form {
+      display: inline-block;
+      text-align: left;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+    input[type="radio"] {
+      margin-bottom: 10px;
+    }
+  
+    label {
+      margin-right: 10px;
+    }
+  </style>
 <body>
     <h1><center>A380</center></h1>
    <center><img src="https://content.presspage.com/uploads/2431/ba35aa09-5a9a-4bdd-8232-b8646c9b4da8/1920_dsc07500-retouched-v1.jpg?10000" width="600" height="400"></center>
@@ -11,5 +32,36 @@
    <center><img src="https://content.presspage.com/uploads/2431/1920_emiratesrampsupglobaloperations.png?10000" width="600" height="400"></center>
    <hr>
    <h1><center><p><a href="https://www.youtube.com/watch?v=uQHhYRuaEtM" target="_blank">Clickme</a></p></center></h1>
+
+   <form >
+    <center>
+        First Name :<input type="text"><br><br>
+        Last Name  :<input type="text"><br><br>
+        Email ID   :<input type="text"><br><br>
+        Password   :<input type="password"><br><br>
+
+        Date :<input type="date" name="date" id="date" checked><br><br>
+
+        Select Travel Type: <input type="radio" id="option1" name="options" value="Oneway">
+        <label for="Oneway">Oneway</label>
+        <input type="radio" id="option2" name="options" value="Return" checked>
+        <label for="Return">Return</label><br>
+        <br><br>
+
+
+        Select Class:
+        <select name="Class" id="class">
+            <option value="Economy class">Economy class</option>
+            <option value="BusinessEconomy">BusinessEconomy</option>
+            <option value="Business class">Business class</option>
+
+        </select><br><br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Confirm">
+
+
+    </center>
+    
+   </form>
 </body>
 </html>
