@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>grid</title>
+</head>
+<style>
+    @media (max-width:475px){
+        .grid-container{
+            grid-template-columns: repeat(2,1fr);
+            bax
+        }
+
+    }
+    body{
+        border: 10px solid rgb(255, 0, 0);
+        margin: 40px;
+        background-color: rgb(0, 0, 0);
+        outline:10px solid purple;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto ;
+        background-color: rgb(16, 137, 5);
+        grid-template-columns: repeat(2,1fr);
+        border: 10px solid pink;
+        outline: 5px solid whitesmoke;
+        margin: 10px;
+        
+        
+    }
+    .item{
+        padding: 5px;
+        padding-left: 20px;
+        outline:5px solid white;
+        background-color: red;
+        border: 5px solid black;
+        margin: 20px;
+
+        
+
+    }
+</style>
+
+
+<body>
+    <div class="grid-container">
+        <div class="item">Lorem, ipsum dolor.</div>
+        <div class="item">Lorem, ipsum dolor.</div>
+        <div class="item">Lorem, ipsum dolor.</div>
+        <div class="item">Lorem, ipsum dolor.</div>
+        <div class="item">Lorem, ipsum dolor.</div>
+        <div class="item">Lorem, ipsum dolor.</div>
+
+    </div>
+    
+</body>
+</html>
